@@ -1,0 +1,87 @@
+body{
+    height: auto;
+    background-color: #7fb1b1;
+}
+
+.toolbar {
+    position: relative;
+    background-color: #329292;
+    padding: 4px 4px 3px 3px;
+    border: 1px solid #1b5252;
+    box-shadow: 1px 1px 10px 2px ;
+    font-family: Russo One;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolbar i{
+    width: 25px;
+    display: flex;
+}
+.toolbar .fa-eye, .fa-edit{
+    font-weight: 700;
+}
+.toolbar .status{
+    position: absolute;
+    right: 10px;
+}
+
+
+.editorWrap {
+    width: 600px;
+    margin: 18px auto;
+}
+.editorWrap .toolbar {
+    width: 99%;
+}
+
+.editorWrap textarea {
+    background-color: #aedada;
+    border:  1px solid #1b5252;;
+    box-shadow: 1px 1px 10px 2px #1b5252;
+    border-top: none;
+    width: 99%;
+    min-height: 200px;
+    margin-bottom: -5px;
+    resize: vertical;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.previewWrap{
+    background-color: #aedada;
+    border:  1px solid #1b5252;;
+    box-shadow: 1px 1px 10px 2px #1b5252;
+    border-top: none;
+    width: 800px;
+    margin: 20px auto;
+    min-height: 200px;
+    overflow-wrap: break-word;
+    padding-right: 0px;
+}
+
+.previewWrap .toolbar{
+    width: 100%;
+    padding-right: 17px;
+}
+
+.maximized {
+    width: 96%;
+    min-height: 100vh;
+    margin: auto;
+}
+.maximized textarea {
+    
+    min-height: 100vh;
+    resize: none;
+}
+  
+  
+  .hide {
+    display: none;
+  }
+  
